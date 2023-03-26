@@ -1,6 +1,5 @@
 import React,{useState} from 'react';
 import {
-  Avatar,
   Box,
   Button,
   Grid,
@@ -8,7 +7,6 @@ import {
   Typography,
 } from '@mui/material';
 import { useNavigate } from 'react-router-dom';
-import {height} from '@mui/system';
 import {useSelector, useDispatch} from 'react-redux';
 import { SetEditProfile,SetProfile } from '../redux/UsersSlice';
 import ToggleButton from './ToggleButton';
