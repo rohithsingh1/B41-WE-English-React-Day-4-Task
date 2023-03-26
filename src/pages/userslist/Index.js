@@ -37,6 +37,7 @@ function Index() {
   useEffect(() => {
     console.log('useeffect')
     allUsers.length===0 && dispatch(SetAllUsers(userData))
+    // eslint-disable-next-line
   },[allUsers])
   return (
     <Box>
